@@ -1,0 +1,81 @@
+@CHARSET "ISO-8859-1";
+/**
+Credit Courses Details
+*/
+
+#ccdetails {
+/*Credit course body*/	
+	background-image: url("C:\\Users\\Dell\\Desktop\\booksimage.jpg");
+	background-size: cover;
+}
+
+#CreditCourses {
+	/*Credit Course Table */
+	background-color: white;
+	opacity: 0.95;
+	padding: 10px;
+	margin-left: 100px;
+}
+
+label {
+	/*Credit course header*/
+	background: white;
+	margin-left: 500px;
+	
+}
+
+
+/**
+Non Credit Courses Details
+*/
+#nccdetails {
+	/*Credit course body*/
+	background-image: url("C:\\Users\\Dell\\Desktop\\booksimage.jpg");
+	background-size: cover;
+	
+}
+
+#NonCreditCourses {
+	/* Non  Credit Course Table */
+	background-color: white;
+	opacity: 0.95;
+	padding: 10px;
+	margin-left: 100px;
+	
+}
+
+
+
+/*Student Landing Page */
+
+#StuLandBody {
+	background-image: url("C:\\Users\\Dell\\Desktop\\stuland.jpg");
+	background-size: cover;
+}
+
+#stulandheader {
+	margin-top: 25px;
+	padding: 10px;
+	background-color: #ff8000;
+	border-radius: 140px;
+	border: solid 2px #000000;
+}
+
+.Stubbut {
+	
+	background-color: #ccffff;
+	font-weight: 700;
+	margin-left: 30px;
+	padding: 7px;
+	border: solid 2px #000000;
+	border-radius: 100px;
+}
+
+#Log {
+	background-color: #ccffff;
+	font-weight: 700;
+	padding: 7px;
+	border: solid 2px #000000;
+	border-radius: 100px;
+	margin-left: 650px;
+}

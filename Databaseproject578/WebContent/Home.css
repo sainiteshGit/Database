@@ -1,0 +1,151 @@
+@CHARSET "ISO-8859-1";
+/*
+Home page styling
+*/
+
+
+#HomeBody {
+	bakcground-image: url("C:\\Users\\Dell\\Desktop\\pgcclogo.jpg");
+	background-size: cover;
+}
+
+
+#loginForm {
+	margin: 20px;
+	padding: 8px;
+}
+.butn {
+	background-color: #80ff80;
+	margin: 6px;
+	padding: 10px;
+	border-radius: 80px;
+	border: solid 2px;
+	border-color: black;
+	font-weight: 600;
+}
+
+.butn:hover {
+	cursor: pointer;
+}
+
+h3 {
+	background: #3385ff;
+	color:#ffffff;
+	text-weight: bold;
+	text-align: center;
+	padding: 25px;
+	border-radius: 105px;
+}
+
+
+#HomeHeader {
+	background-color: #D3EAF7;
+	padding:5px;
+}
+
+/*
+These are student classes tags 
+*/
+#stuenbody {
+	background-image: url("C:\\Users\\Dell\\workspaceEE\\Databaseproject578\\WebContent\\stuback.jpg");
+	background-size: cover;
+}
+
+#Studenroll {
+	margin: 10px;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+#stuleg {
+	background-color: #ffffff;
+	text-align: center;
+	margin-left: 90px;
+	padding: 3px;
+}
+
+#ListofProgs {
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 10px;
+}
+.stud {
+	background-color: #ffffff;
+}
+
+/*Faculty Details page from here on*/
+
+#FacultyDetails {
+	background-image: url("C:\\Users\\Dell\\Desktop\\Facgrp.jpeg");
+	background-size: cover;
+	filter: brightness(50%);
+-webkit-filter: brightness(50%);
+-moz-filter: brightness(50%);
+-o-filter: brightness(50%);
+-ms-filter: brightness(50%);
+opacity: .95;
+}
+#Facultyprofile {
+	background-color:#ffffff;
+	margin-left: 200px;
+	margin-top:50px;
+	padding: 3px;
+	
+}
+
+/*Course Page Styling*/
+
+#cc {
+	background: #3385ff;
+	padding: 60px;
+	margin: 40px;
+	border: solid 1.5px;
+}
+
+#noncc {
+	background: #3385ff;
+	padding: 60px;
+	margin: 40px;
+	border: solid 1.5px;
+}
+
+
+#cc:hover {
+	cursor:pointer;
+	}
+
+#noncc:hover {
+	cursor: pointer;
+	}
+
+.coursetext {
+	color: #f2f2f2;
+	font-weight: bold;
+	font-style:Blackletter;
+	border-radius: 95px;
+}
+
+
+/*
+Credit courses details page styling
+*/
+
+#ccdetails {
+	background-image: url("C:\\Users\\Dell\\Desktop\\booksimage.jpg");
+	background-size: cover;
+}
+
+#CreditCourses {
+	background-color: #f2f2f2;
+	opacity:.8;
+	margin-left: 70px;
+	padding: 5px;
+}
+
+#ccdetailstable {
+	background-color: #f2f2f2;
+	opacity:.8;
+	margin-left: 70px;
+	margin-top: 20px;
+	padding: 5px;
+}

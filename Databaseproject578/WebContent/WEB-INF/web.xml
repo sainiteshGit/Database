@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Databaseproject578</display-name>
+  <welcome-file-list>
+    <welcome-file>Home.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <description>Student Enroll Servlet</description>
+    <servlet-name>Student_enroll_Servlet</servlet-name>
+    <servlet-class>Project.Student_enroll_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Student_enroll_Servlet</servlet-name>
+    <url-pattern>/Student_enroll_Servlet</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ 
+  <servlet>
+    <description>Student Login Servlet</description>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Project.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+ 
+ 
+  
+  
+  
+  <servlet>
+    <description>Credit Course Register Servlet</description>
+   
+    <servlet-name>Credit_Course_Register</servlet-name>
+    <servlet-class>Project.Credit_Course_Register</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Credit_Course_Register</servlet-name>
+    <url-pattern>/Credit_Course_Register</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description>Student Payment Servlet</description>
+   
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>Project.PaymentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/PaymentServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description>Faculty Assigns Grade</description>
+    <servlet-name>FacultyAssignsGrade</servlet-name>
+    <servlet-class>Project.FacultyAssignsGrade</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FacultyAssignsGrade</servlet-name>
+    <url-pattern>/FacultyAssignsGrade</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description>Addcreditcourse</description>
+    <servlet-name>Addcreditcourse</servlet-name>
+    <servlet-class>Project.Addcourses</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Addcreditcourse</servlet-name>
+    <url-pattern>/Addcreditcourse</url-pattern>
+  </servlet-mapping>  
+  
+  
+</web-app>
+</element>
